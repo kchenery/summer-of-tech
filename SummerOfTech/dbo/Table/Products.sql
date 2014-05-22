@@ -11,3 +11,8 @@
 	CONSTRAINT AK_dbo_Products_ProductCode UNIQUE(ProductCode),
 	CONSTRAINT FK_dbo_Products_dbo_ProductGroup FOREIGN KEY([ProductCategoryID]) REFERENCES [dbo].[ProductCategory]([ProductCategoryID])
 )
+;
+GO
+
+CREATE INDEX IX_dbo_Products_ProductCategoryID ON dbo.Products(ProductCategoryID);
+GO
