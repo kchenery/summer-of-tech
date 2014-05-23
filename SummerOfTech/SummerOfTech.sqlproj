@@ -20,7 +20,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetLanguage>CS</TargetLanguage>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <SqlServerVerification>False</SqlServerVerification>
+    <SqlServerVerification>True</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <Recovery>SIMPLE</Recovery>
@@ -82,8 +82,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\PostDeployment\SalesRegion.sql" />
-    <None Include="SummerOfTech.publish.xml" />
+    <None Include="SummerOfTech - LOCALHOST.publish.xml" />
     <None Include="Scripts\PostDeployment\ProductCategory.sql" />
     <None Include="Scripts\PostDeployment\Products.sql" />
+    <None Include="Scripts\PostDeployment\Address.sql" />
+    <None Include="Scripts\PostDeployment\Customer.sql" />
+    <None Include="SummerOfTech - Azure.publish.xml" />
+    <None Include="Scripts\PostDeployment\OrderHeader.sql" />
+    <None Include="Scripts\PostDeployment\OrderLines.sql" />
   </ItemGroup>
 </Project>
