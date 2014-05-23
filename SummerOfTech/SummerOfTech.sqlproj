@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{d63a6e72-a3fc-430e-b662-38342d1da2f5}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql100DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureDatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -88,7 +88,5 @@
     <None Include="Scripts\PostDeployment\Address.sql" />
     <None Include="Scripts\PostDeployment\Customer.sql" />
     <None Include="SummerOfTech - Azure.publish.xml" />
-    <None Include="Scripts\PostDeployment\OrderHeader.sql" />
-    <None Include="Scripts\PostDeployment\OrderLines.sql" />
   </ItemGroup>
 </Project>
