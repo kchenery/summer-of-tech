@@ -1,1 +1,1 @@
-bcp dbo.OrderHeader in dbo.OrderHeader.dat -S %1 -U %2 -P %3 -E -d SummerOfTech -b 1000 -f dbo.OrderHeader.fmt
+bcp dbo.OrderHeader in dbo.OrderHeader.dat -S %1 -T -E -d SummerOfTech -b 1000 -f dbo.OrderHeader.fmt
