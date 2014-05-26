@@ -8,4 +8,6 @@ Either use SSDT to deploy the project or run the SummerOfTech_DB_Create.sql scri
 To populate the OrderHeader and OrderDetails data run the Orders.bat file from Data directory.
 
 ## Slides
-Slide deck available here: https://docs.google.com/presentation/d/1Hkat14EToagryKPmIGcX9iJCz-Ic32Vy071Hb7YBIGk/edit?usp=sharing (Note: I have removed my contact details, but I'm sure you can work them out!)
+Slide deck available here: https://docs.google.com/presentation/d/1Hkat14EToagryKPmIGcX9iJCz-Ic32Vy071Hb7YBIGk/edit?usp=sharing 
+
+**Note:** I have removed my contact details, but I'm sure you can work them out!
